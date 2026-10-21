@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "940877349753",
+    "firebase_url": "https://harryphonelocker-default-rtdb.firebaseio.com",
+    "project_id": "harryphonelocker",
+    "storage_bucket": "harryphonelocker.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940877349753:android:1d87f1bca439273bb6a5a8",
+        "android_client_info": {
+          "package_name": "com.codingmind.sproutfocus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALZ6O-H5tdCB2NK4Gs2CUyjYdN-_7q6LU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940877349753:android:e65d498c3319823eb6a5a8",
+        "android_client_info": {
+          "package_name": "com.example.harry_phone_locker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALZ6O-H5tdCB2NK4Gs2CUyjYdN-_7q6LU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

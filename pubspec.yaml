@@ -1,0 +1,53 @@
+name: sprout_focus
+description: "Grow a plant while you focus — lock your phone in the Sprout Focus device and watch your garden bloom."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  flutter_blue_plus: ^1.35.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.10.0
+  fl_chart: ^0.70.2
+  firebase_core: ^4.1.1
+  firebase_auth: ^6.5.2
+  firebase_database: ^12.4.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1 # dart run flutter_launcher_icons
+
+# Icon sources live in branding/ rather than assets/ so they are not bundled
+# into the app -- nothing in lib/ renders them. Rebuild the PNGs from the
+# source artwork with: python3 branding/build_icons.py
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "branding/sprout_logo_source.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
+  # Separate foreground/background keep the subject inside the center-66% area
+  # that Android adaptive masks guarantee, so nothing gets clipped.
+  adaptive_icon_background: "branding/sprout_logo_v4_background.png"
+  adaptive_icon_foreground: "branding/sprout_logo_v4_foreground.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
